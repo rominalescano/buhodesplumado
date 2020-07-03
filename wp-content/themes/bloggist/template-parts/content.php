@@ -10,7 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('posts-entry fbox blogposts-list'); ?>>
-	<?php if ( has_post_thumbnail('medium') ) : ?>
+	<?php if ( has_post_thumbnail() ) : ?>
 	<div class="featured-img-box">
 		<a href="<?php the_permalink() ?>" class="featured-thumbnail" rel="bookmark">
 			<div class="featured-thumbnail-inner" style="background-image:url(<?php the_post_thumbnail_url('large'); ?>);"> 
