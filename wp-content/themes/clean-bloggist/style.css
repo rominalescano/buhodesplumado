@@ -983,7 +983,13 @@ object {
 .content-wrap {
 	width: 1180px;
 	max-width: 90%;
-	margin: 0 auto
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.aling-center {
+	align-items: center;
 }
 
 .sheader {
@@ -1367,7 +1373,7 @@ object {
 }
 
 .featured-content {
-	width: 66%;
+	max-width: 850px;
 	margin-right: 4%;
 	float: left
 }
@@ -1659,7 +1665,7 @@ object {
 }
 
 .featured-sidebar {
-	width: 30%;
+	width: 15%;
 	float: left
 }
 
@@ -1832,7 +1838,8 @@ object {
 	}
 	.footer-menu ul li.main-navigation-item-has-children a,
 	.footer-menu ul li.main-navigation-item-has-children ul {
-		float: left
+		float: left;
+		align-items: center;
 	}
 	.secondary-menu .smenu ul ul.children,
 	.secondary-menu .smenu ul ul.sub-menu {
@@ -2546,11 +2553,7 @@ p.comment-form-url {
 .header-widgets-right {
 	padding-left:10px;
 }
-.header-widgets-wrapper {
-	display: inline-block;
-	float: left;
-	width: 100%;
-}
+
 .header-widgets-three .header-widget p:last-of-type {
 	margin-bottom:0;
 }

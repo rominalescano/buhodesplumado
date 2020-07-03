@@ -24,10 +24,9 @@
 
 		<header id="masthead" class="sheader site-header clearfix">
 			<nav id="primary-site-navigation" class="primary-menu main-navigation clearfix">
-
 				<a href="#" id="pull" class="smenu-hide toggle-mobile-menu menu-toggle" aria-controls="secondary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'bloggist' ); ?></a>
 				<div class="top-nav-wrapper">
-					<div class="content-wrap">
+					<div class="content-wrap  aling-center" >
 						<div class="logo-container"> 
 
 							<?php if ( has_custom_logo() ) : ?>

@@ -12,7 +12,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('posts-entry fbox'); ?>>
 	<?php if ( has_post_thumbnail() ) : ?>
 	<div class="featured-thumbnail">
-		<?php the_post_thumbnail('bloggist-slider'); ?>
+		<?php //the_post_thumbnail('bloggist-slider'); ?>
 	</div>
 <?php endif; ?>
 <header class="entry-header">
